@@ -1,0 +1,28 @@
+# parameter file for calculating spin-transfer torque excitation of macrospin synthetic antiferromagnet
+filename = test.txt
+nl = 10 # number of layers
+dt = 0.1 # ps
+N = 50000
+Neq = 100000
+Hext = 0.1
+theta_h = 90
+phi_h = 0
+alpha = 0.01
+Ms = 1.0e6
+Ku = 0.0e6
+Kuni = 2.7e3
+dF = 2.0e-9 # m
+Jex = -1.0e-3
+Jex2 = -0.0e-3
+DMI = 0.5e-3
+dir_D = z-alt
+dir_uni = x
+m_ini = z-alt
+# -------- parameter for m-h calculation ---------#
+Hmax=4.005
+Hmin=-4.005
+dH=0.01
+alpha_mh=1.0
+init_m=cont
+print_mh_all=true
+filename_mh= n10_J1D3_Kunix_cont.txt
